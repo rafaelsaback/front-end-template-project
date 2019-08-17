@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 module.exports = {
   entry: './src/index.tsx',
@@ -20,6 +21,9 @@ module.exports = {
         test: /\.tsx?$/,
         loader: 'ts-loader',
         exclude: /node_modules/,
+        options: {
+          transpileOnly: true,
+        },
       },
       {
         test: /\.(css|scss)$/,
@@ -35,5 +39,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
+    new ForkTsCheckerWebpackPlugin(),
   ],
 };
