@@ -6,22 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config webpack.config.dev.js",
-    "lint": "eslint src/**/*.ts && echo Lint OK",
-    "build:dev": "webpack --config webpack.config.dev.js src/index.ts",
-    "build:prod": "webpack --config webpack.config.prod.js src/index.ts",
-    "watch:dev": "webpack --watch --config webpack.config.dev.js src/index.ts",
-    "watch:prod": "webpack --watch --config webpack.config.prod.js src/index.ts"
+    "build:dev": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mplakhtiy/project.git"
+    "url": "git+https://github.com/rafaelsaback/front-end-template-project.git"
   },
-  "author": "Maryan Plakhtiy",
+  "author": "Rafael Saback",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mplakhtiy/project/issues"
+    "url": "https://github.com/rafaelsaback/front-end-template-project/issues"
   },
-  "homepage": "https://github.com/mplakhtiy/project#readme",
+  "homepage": "https://github.com/rafaelsaback/front-end-template-project#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
@@ -36,6 +33,7 @@
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "babel-plugin-dynamic-import-node": "^2.3.0",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.0.0",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
