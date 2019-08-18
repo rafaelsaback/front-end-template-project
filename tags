@@ -6,12 +6,12 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 .eslintrc.js	.eslintrc.js	1;"	F
 .prettierrc.js	.prettierrc.js	1;"	F
+.babelrc	.babelrc	1;"	F
 App	src/app.tsx	/^class App extends PureComponent<{}, AppState> {$/;"	c
 App	src/index.tsx	/^import App from '.\/app';$/;"	I
 AppState	src/app.tsx	/^interface AppState {$/;"	i
 Config	webpack.config.dev.js	/^const webpackConfig = require('.\/webpack.config');$/;"	c
 Config	webpack.config.prod.js	/^const webpackConfig = require('.\/webpack.config');$/;"	c
-Dashboard	webpack.config.dev.js	/^const webpackDashboard = require('webpack-dashboard\/plugin');$/;"	c
 ForkTsCheckerWebpackPlugin	webpack.config.js	/^const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');$/;"	c
 HtmlWebpackPlugin	webpack.config.js	/^const HtmlWebpackPlugin = require('html-webpack-plugin');$/;"	c
 React	src/app.tsx	/^import React, { PureComponent } from 'react';$/;"	I
