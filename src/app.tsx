@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import './index.scss';
-// We can import now using alias: 'assets/pic_bulbon.gif', not './assets/pic_bulbon.gif'.
 import lightOnImg from 'assets/pic_bulbon.gif?as-module';
 import lightOffImg from 'assets/pic_bulboff.gif?as-module';
 

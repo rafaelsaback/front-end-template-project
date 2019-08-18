@@ -11,4 +11,9 @@ module.exports = merge(webpackConfig, {
     hot: true,
     contentBase: './dist',
   },
+  resolve: {
+    alias: {
+      'react-dom': '@hot-loader/react-dom',
+    },
+  },
 });
