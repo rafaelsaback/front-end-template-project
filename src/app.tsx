@@ -14,7 +14,9 @@ class App extends PureComponent<{}, AppState> {
   };
 
   onClick = () =>
-    this.setState((prevState) => ({ lightOn: !prevState.lightOn }));
+    this.setState((prevState) => ({
+      lightOn: !prevState.lightOn,
+    }));
 
   render() {
     const { lightOn } = this.state;

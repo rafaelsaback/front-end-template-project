@@ -10,6 +10,5 @@ module.exports = merge(webpackConfig, {
   devServer: {
     hot: true,
     contentBase: './dist',
-    open: true,
   },
 });
